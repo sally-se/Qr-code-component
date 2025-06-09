@@ -25,7 +25,7 @@ body{
 
 img{
     border-radius: 10px;
-    width: auto;
+ 
     
 }
 #details{
@@ -48,4 +48,11 @@ p{
     font-weight: 400;
     padding-left: 10px;
     padding-right: 10px;
+}
+@media (max-width:700px) {
+    img{
+        height: 260px;
+        margin: 10px;
+        margin-top: -4px;
+    }
 }
